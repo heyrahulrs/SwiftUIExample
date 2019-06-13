@@ -9,8 +9,27 @@
 import SwiftUI
 
 struct ContentView : View {
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                
+                Section {
+                    Views()
+                }
+                
+                Section  {
+                    Inputs()
+                }
+                
+                Section  {
+                    Gestures()
+                }
+                
+            }
+            .listStyle(.grouped)
+            .navigationBarTitle(Text("SwiftUI"))
+        }
     }
 }
 
@@ -18,6 +37,8 @@ struct ContentView : View {
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice(PreviewDevice(rawValue: "iPhone XS"))
+            .environment(\.colorScheme, .dark)
     }
 }
 #endif

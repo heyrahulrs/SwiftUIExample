@@ -13,6 +13,21 @@
 		2089993822B2442800504BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2089993722B2442800504BFE /* Assets.xcassets */; };
 		2089993B22B2442800504BFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2089993A22B2442800504BFE /* Preview Assets.xcassets */; };
 		2089993E22B2442800504BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2089993C22B2442800504BFE /* LaunchScreen.storyboard */; };
+		2089994822B244F200504BFE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089994722B244F200504BFE /* TextView.swift */; };
+		2089994A22B2451600504BFE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089994922B2451600504BFE /* ImageView.swift */; };
+		20BE320822B25B6000828F68 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE320722B25B6000828F68 /* ShapesView.swift */; };
+		20BE320E22B260FC00828F68 /* ToggleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE320D22B260FC00828F68 /* ToggleInput.swift */; };
+		20BE321022B262DC00828F68 /* ButtonInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE320F22B262DC00828F68 /* ButtonInput.swift */; };
+		20BE321222B267EA00828F68 /* TextFieldInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE321122B267EA00828F68 /* TextFieldInput.swift */; };
+		20BE321622B269ED00828F68 /* SecureFieldInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE321522B269ED00828F68 /* SecureFieldInput.swift */; };
+		20BE321822B26A5300828F68 /* SliderInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE321722B26A5300828F68 /* SliderInput.swift */; };
+		20BE321A22B26B4600828F68 /* SegmentedControlInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE321922B26B4600828F68 /* SegmentedControlInput.swift */; };
+		20BE321C22B26E6500828F68 /* DatePickerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE321B22B26E6500828F68 /* DatePickerInput.swift */; };
+		20BE321E22B2701400828F68 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE321D22B2701400828F68 /* Views.swift */; };
+		20BE322022B2706500828F68 /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE321F22B2706500828F68 /* Inputs.swift */; };
+		20BE322222B270E300828F68 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE322122B270E300828F68 /* Gestures.swift */; };
+		20BE322422B2713C00828F68 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE322322B2713C00828F68 /* TapGestureView.swift */; };
+		20BE322622B272C700828F68 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE322522B272C700828F68 /* DragGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		2089993A22B2442800504BFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2089993D22B2442800504BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2089993F22B2442800504BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2089994722B244F200504BFE /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		2089994922B2451600504BFE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		20BE320722B25B6000828F68 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		20BE320D22B260FC00828F68 /* ToggleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleInput.swift; sourceTree = "<group>"; };
+		20BE320F22B262DC00828F68 /* ButtonInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInput.swift; sourceTree = "<group>"; };
+		20BE321122B267EA00828F68 /* TextFieldInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldInput.swift; sourceTree = "<group>"; };
+		20BE321522B269ED00828F68 /* SecureFieldInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldInput.swift; sourceTree = "<group>"; };
+		20BE321722B26A5300828F68 /* SliderInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderInput.swift; sourceTree = "<group>"; };
+		20BE321922B26B4600828F68 /* SegmentedControlInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlInput.swift; sourceTree = "<group>"; };
+		20BE321B22B26E6500828F68 /* DatePickerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerInput.swift; sourceTree = "<group>"; };
+		20BE321D22B2701400828F68 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		20BE321F22B2706500828F68 /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
+		20BE322122B270E300828F68 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
+		20BE322322B2713C00828F68 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		20BE322522B272C700828F68 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +89,12 @@
 				2089993122B2442700504BFE /* AppDelegate.swift */,
 				2089993322B2442700504BFE /* SceneDelegate.swift */,
 				2089993522B2442700504BFE /* ContentView.swift */,
+				20BE321D22B2701400828F68 /* Views.swift */,
+				20BE321F22B2706500828F68 /* Inputs.swift */,
+				20BE322122B270E300828F68 /* Gestures.swift */,
+				20BE321322B2692D00828F68 /* Views */,
+				20BE321422B2699900828F68 /* Inputs */,
+				20BE322722B2770A00828F68 /* Gestures */,
 				2089993722B2442800504BFE /* Assets.xcassets */,
 				2089993C22B2442800504BFE /* LaunchScreen.storyboard */,
 				2089993F22B2442800504BFE /* Info.plist */,
@@ -73,6 +109,39 @@
 				2089993A22B2442800504BFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20BE321322B2692D00828F68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2089994722B244F200504BFE /* TextView.swift */,
+				2089994922B2451600504BFE /* ImageView.swift */,
+				20BE320722B25B6000828F68 /* ShapesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20BE321422B2699900828F68 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				20BE320D22B260FC00828F68 /* ToggleInput.swift */,
+				20BE320F22B262DC00828F68 /* ButtonInput.swift */,
+				20BE321122B267EA00828F68 /* TextFieldInput.swift */,
+				20BE321522B269ED00828F68 /* SecureFieldInput.swift */,
+				20BE321722B26A5300828F68 /* SliderInput.swift */,
+				20BE321922B26B4600828F68 /* SegmentedControlInput.swift */,
+				20BE321B22B26E6500828F68 /* DatePickerInput.swift */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		20BE322722B2770A00828F68 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				20BE322322B2713C00828F68 /* TapGestureView.swift */,
+				20BE322522B272C700828F68 /* DragGestureView.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +215,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20BE321622B269ED00828F68 /* SecureFieldInput.swift in Sources */,
+				20BE320E22B260FC00828F68 /* ToggleInput.swift in Sources */,
+				2089994A22B2451600504BFE /* ImageView.swift in Sources */,
 				2089993222B2442700504BFE /* AppDelegate.swift in Sources */,
+				20BE321A22B26B4600828F68 /* SegmentedControlInput.swift in Sources */,
 				2089993422B2442700504BFE /* SceneDelegate.swift in Sources */,
 				2089993622B2442700504BFE /* ContentView.swift in Sources */,
+				20BE321222B267EA00828F68 /* TextFieldInput.swift in Sources */,
+				2089994822B244F200504BFE /* TextView.swift in Sources */,
+				20BE320822B25B6000828F68 /* ShapesView.swift in Sources */,
+				20BE321E22B2701400828F68 /* Views.swift in Sources */,
+				20BE322222B270E300828F68 /* Gestures.swift in Sources */,
+				20BE322622B272C700828F68 /* DragGestureView.swift in Sources */,
+				20BE321022B262DC00828F68 /* ButtonInput.swift in Sources */,
+				20BE321C22B26E6500828F68 /* DatePickerInput.swift in Sources */,
+				20BE322422B2713C00828F68 /* TapGestureView.swift in Sources */,
+				20BE321822B26A5300828F68 /* SliderInput.swift in Sources */,
+				20BE322022B2706500828F68 /* Inputs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
