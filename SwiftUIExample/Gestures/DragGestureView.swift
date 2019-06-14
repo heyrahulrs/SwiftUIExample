@@ -20,17 +20,20 @@ struct DragGestureView : View {
                 .fill(Color.pink)
                 .frame(width: 200, height: 120)
                 .offset(translation)
-                .animation(.spring())
                 .gesture(
-                    DragGesture(minimumDistance: 10)
+                    DragGesture(minimumDistance: 10.0)
                         .onChanged { value in
-                            self.translation = value.translation
-                            self.isDragging = true
+                            withAnimation(.spring()) {
+                                self.translation = value.translation
+                                self.isDragging = true
+                            }
                         }
                         
                         .onEnded { _ in
-                            self.translation = .zero
-                            self.isDragging = false
+                            withAnimation(.spring()) {
+                                self.translation = .zero
+                                self.isDragging = false
+                            }
                         }
                 )
             

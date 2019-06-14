@@ -15,9 +15,10 @@ struct RotateAnimation : View {
     var body: some View {
         MyAnimationImage()
             .rotationEffect(angle, anchor: .center)
-            .animation(.basic(duration: 0.4, curve: .easeInOut))
             .tapAction {
-                self.angle += Angle(degrees: 30.0)
+                withAnimation(.basic(duration: 0.4, curve: .easeInOut)) {
+                    self.angle += Angle(degrees: 30.0)
+                }
             }
     }
     

@@ -17,14 +17,17 @@ struct LongPressGestureView : View {
             .fill(Color.red)
             .frame(width: 200, height: 120)
             .scaleEffect(isLongPressing ? 0.8 : 1.0)
-            .animation(.spring())
             .gesture(
                 LongPressGesture(minimumDuration: 0.9, maximumDistance: 20.0)
                     .onChanged { _ in
-                        self.isLongPressing = true
+                        withAnimation(.spring()) {
+                            self.isLongPressing = true
+                        }
                     }
                     .onEnded { _ in
-                        self.isLongPressing = false
+                        withAnimation(.spring()) {
+                            self.isLongPressing = false
+                        }
                     }
             )
     }

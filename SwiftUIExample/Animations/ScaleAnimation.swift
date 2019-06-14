@@ -16,11 +16,12 @@ struct ScaleAnimation : View {
         
         MyAnimationImage()
             .scaleEffect(scale)
-            .animation(.spring())
             .tapAction {
-                self.scale += 0.1
-                if self.scale > 1.4 {
-                    self.scale = 0.6
+                withAnimation(.spring()) {
+                    self.scale += 0.1
+                    if self.scale > 1.4 {
+                        self.scale = 0.6
+                    }
                 }
             }
         
