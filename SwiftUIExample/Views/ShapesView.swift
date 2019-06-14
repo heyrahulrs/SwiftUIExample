@@ -52,6 +52,18 @@ struct ShapesView : View {
                 Text("Square")
             }
             
+            HStack {
+                
+                Capsule()
+                    .fill(Color.yellow)
+                    .frame(width: 40, height: 120)
+                    .padding([.leading, .trailing], 40.0)
+                
+                Spacer()
+                
+                Text("Capsule")
+            }
+            
         }
         .padding()
         
