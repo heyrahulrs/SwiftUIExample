@@ -15,6 +15,15 @@
 		2089993E22B2442800504BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2089993C22B2442800504BFE /* LaunchScreen.storyboard */; };
 		2089994822B244F200504BFE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089994722B244F200504BFE /* TextView.swift */; };
 		2089994A22B2451600504BFE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089994922B2451600504BFE /* ImageView.swift */; };
+		208B5B5A22B3465100424DA3 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208B5B5922B3465100424DA3 /* LongPressGestureView.swift */; };
+		2096E54322B365040016F3E6 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E54222B365040016F3E6 /* Animations.swift */; };
+		2096E54522B365940016F3E6 /* ScaleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E54422B365940016F3E6 /* ScaleAnimation.swift */; };
+		2096E54722B3670E0016F3E6 /* RotateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E54622B3670E0016F3E6 /* RotateAnimation.swift */; };
+		2096E54A22B368560016F3E6 /* OffsetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E54922B368560016F3E6 /* OffsetAnimation.swift */; };
+		2096E54C22B369CA0016F3E6 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E54B22B369CA0016F3E6 /* Gradients.swift */; };
+		2096E54E22B36A030016F3E6 /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E54D22B36A030016F3E6 /* LinearGradientView.swift */; };
+		2096E55022B36AD20016F3E6 /* AngularGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E54F22B36AD20016F3E6 /* AngularGradientView.swift */; };
+		2096E55222B36B620016F3E6 /* RadialGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2096E55122B36B620016F3E6 /* RadialGradientView.swift */; };
 		20BE320822B25B6000828F68 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE320722B25B6000828F68 /* ShapesView.swift */; };
 		20BE320E22B260FC00828F68 /* ToggleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE320D22B260FC00828F68 /* ToggleInput.swift */; };
 		20BE321022B262DC00828F68 /* ButtonInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE320F22B262DC00828F68 /* ButtonInput.swift */; };
@@ -28,6 +37,11 @@
 		20BE322222B270E300828F68 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE322122B270E300828F68 /* Gestures.swift */; };
 		20BE322422B2713C00828F68 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE322322B2713C00828F68 /* TapGestureView.swift */; };
 		20BE322622B272C700828F68 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE322522B272C700828F68 /* DragGestureView.swift */; };
+		20D1CEDD22B35DC60044EDFF /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1CEDC22B35DC60044EDFF /* HStackView.swift */; };
+		20D1CEDF22B35EF50044EDFF /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1CEDE22B35EF50044EDFF /* ZStackView.swift */; };
+		20D1CEE222B360660044EDFF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1CEE122B360660044EDFF /* ListView.swift */; };
+		20DCC47222B34D8C001A516F /* Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC47122B34D8C001A516F /* Layouts.swift */; };
+		20DCC47422B34E16001A516F /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC47322B34E16001A516F /* VStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +55,15 @@
 		2089993F22B2442800504BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2089994722B244F200504BFE /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		2089994922B2451600504BFE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		208B5B5922B3465100424DA3 /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		2096E54222B365040016F3E6 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		2096E54422B365940016F3E6 /* ScaleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleAnimation.swift; sourceTree = "<group>"; };
+		2096E54622B3670E0016F3E6 /* RotateAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateAnimation.swift; sourceTree = "<group>"; };
+		2096E54922B368560016F3E6 /* OffsetAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetAnimation.swift; sourceTree = "<group>"; };
+		2096E54B22B369CA0016F3E6 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		2096E54D22B36A030016F3E6 /* LinearGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientView.swift; sourceTree = "<group>"; };
+		2096E54F22B36AD20016F3E6 /* AngularGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientView.swift; sourceTree = "<group>"; };
+		2096E55122B36B620016F3E6 /* RadialGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientView.swift; sourceTree = "<group>"; };
 		20BE320722B25B6000828F68 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		20BE320D22B260FC00828F68 /* ToggleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleInput.swift; sourceTree = "<group>"; };
 		20BE320F22B262DC00828F68 /* ButtonInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInput.swift; sourceTree = "<group>"; };
@@ -54,6 +77,11 @@
 		20BE322122B270E300828F68 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
 		20BE322322B2713C00828F68 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		20BE322522B272C700828F68 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		20D1CEDC22B35DC60044EDFF /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		20D1CEDE22B35EF50044EDFF /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		20D1CEE122B360660044EDFF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		20DCC47122B34D8C001A516F /* Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouts.swift; sourceTree = "<group>"; };
+		20DCC47322B34E16001A516F /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +117,18 @@
 				2089993122B2442700504BFE /* AppDelegate.swift */,
 				2089993322B2442700504BFE /* SceneDelegate.swift */,
 				2089993522B2442700504BFE /* ContentView.swift */,
+				20DCC47122B34D8C001A516F /* Layouts.swift */,
 				20BE321D22B2701400828F68 /* Views.swift */,
 				20BE321F22B2706500828F68 /* Inputs.swift */,
+				2096E54222B365040016F3E6 /* Animations.swift */,
 				20BE322122B270E300828F68 /* Gestures.swift */,
+				2096E54B22B369CA0016F3E6 /* Gradients.swift */,
+				20D1CEE022B360550044EDFF /* Layouts */,
 				20BE321322B2692D00828F68 /* Views */,
 				20BE321422B2699900828F68 /* Inputs */,
+				2096E54822B367F10016F3E6 /* Animations */,
 				20BE322722B2770A00828F68 /* Gestures */,
+				2096E55322B36C5A0016F3E6 /* Gradients */,
 				2089993722B2442800504BFE /* Assets.xcassets */,
 				2089993C22B2442800504BFE /* LaunchScreen.storyboard */,
 				2089993F22B2442800504BFE /* Info.plist */,
@@ -109,6 +143,26 @@
 				2089993A22B2442800504BFE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2096E54822B367F10016F3E6 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				2096E54422B365940016F3E6 /* ScaleAnimation.swift */,
+				2096E54622B3670E0016F3E6 /* RotateAnimation.swift */,
+				2096E54922B368560016F3E6 /* OffsetAnimation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		2096E55322B36C5A0016F3E6 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				2096E54D22B36A030016F3E6 /* LinearGradientView.swift */,
+				2096E54F22B36AD20016F3E6 /* AngularGradientView.swift */,
+				2096E55122B36B620016F3E6 /* RadialGradientView.swift */,
+			);
+			path = Gradients;
 			sourceTree = "<group>";
 		};
 		20BE321322B2692D00828F68 /* Views */ = {
@@ -140,8 +194,20 @@
 			children = (
 				20BE322322B2713C00828F68 /* TapGestureView.swift */,
 				20BE322522B272C700828F68 /* DragGestureView.swift */,
+				208B5B5922B3465100424DA3 /* LongPressGestureView.swift */,
 			);
 			path = Gestures;
+			sourceTree = "<group>";
+		};
+		20D1CEE022B360550044EDFF /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				20DCC47322B34E16001A516F /* VStackView.swift */,
+				20D1CEDC22B35DC60044EDFF /* HStackView.swift */,
+				20D1CEDE22B35EF50044EDFF /* ZStackView.swift */,
+				20D1CEE122B360660044EDFF /* ListView.swift */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,21 +282,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BE321622B269ED00828F68 /* SecureFieldInput.swift in Sources */,
+				208B5B5A22B3465100424DA3 /* LongPressGestureView.swift in Sources */,
 				20BE320E22B260FC00828F68 /* ToggleInput.swift in Sources */,
+				2096E54A22B368560016F3E6 /* OffsetAnimation.swift in Sources */,
+				20DCC47422B34E16001A516F /* VStackView.swift in Sources */,
+				2096E54E22B36A030016F3E6 /* LinearGradientView.swift in Sources */,
 				2089994A22B2451600504BFE /* ImageView.swift in Sources */,
 				2089993222B2442700504BFE /* AppDelegate.swift in Sources */,
+				2096E54322B365040016F3E6 /* Animations.swift in Sources */,
+				2096E55222B36B620016F3E6 /* RadialGradientView.swift in Sources */,
+				2096E54C22B369CA0016F3E6 /* Gradients.swift in Sources */,
 				20BE321A22B26B4600828F68 /* SegmentedControlInput.swift in Sources */,
 				2089993422B2442700504BFE /* SceneDelegate.swift in Sources */,
 				2089993622B2442700504BFE /* ContentView.swift in Sources */,
 				20BE321222B267EA00828F68 /* TextFieldInput.swift in Sources */,
+				2096E54522B365940016F3E6 /* ScaleAnimation.swift in Sources */,
+				20D1CEDF22B35EF50044EDFF /* ZStackView.swift in Sources */,
 				2089994822B244F200504BFE /* TextView.swift in Sources */,
+				2096E55022B36AD20016F3E6 /* AngularGradientView.swift in Sources */,
 				20BE320822B25B6000828F68 /* ShapesView.swift in Sources */,
+				20D1CEDD22B35DC60044EDFF /* HStackView.swift in Sources */,
 				20BE321E22B2701400828F68 /* Views.swift in Sources */,
 				20BE322222B270E300828F68 /* Gestures.swift in Sources */,
 				20BE322622B272C700828F68 /* DragGestureView.swift in Sources */,
+				20D1CEE222B360660044EDFF /* ListView.swift in Sources */,
 				20BE321022B262DC00828F68 /* ButtonInput.swift in Sources */,
 				20BE321C22B26E6500828F68 /* DatePickerInput.swift in Sources */,
 				20BE322422B2713C00828F68 /* TapGestureView.swift in Sources */,
+				2096E54722B3670E0016F3E6 /* RotateAnimation.swift in Sources */,
+				20DCC47222B34D8C001A516F /* Layouts.swift in Sources */,
 				20BE321822B26A5300828F68 /* SliderInput.swift in Sources */,
 				20BE322022B2706500828F68 /* Inputs.swift in Sources */,
 			);

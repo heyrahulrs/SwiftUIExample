@@ -21,9 +21,10 @@ struct Gestures : View {
                 Text("Drag Gesture")
             }
             
-            NavigationButton(destination: Text("Coming Soon")) {
+            NavigationButton(destination: LongPressGestureView()) {
                 Text("Long Press Gesture")
             }
+            
         }
         
     }

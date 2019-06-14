@@ -11,26 +11,41 @@ import SwiftUI
 struct ContentView : View {
     
     var body: some View {
+        
         NavigationView {
             List {
+                
+                Section {
+                    Layouts()
+                }
                 
                 Section {
                     Views()
                 }
                 
-                Section  {
+                Section {
                     Inputs()
                 }
                 
-                Section  {
+                Section {
+                    Animations()
+                }
+                
+                Section {
                     Gestures()
+                }
+                
+                Section {
+                    Gradients()
                 }
                 
             }
             .listStyle(.grouped)
             .navigationBarTitle(Text("SwiftUI"))
         }
+        
     }
+    
 }
 
 #if DEBUG
