@@ -65,6 +65,7 @@ struct ShapesView : View {
             }
             
         }
+        .offset(y: -64)
         .padding()
         
     }

@@ -23,15 +23,13 @@ struct ListView : View {
     
     var body: some View {
         
-        NavigationView {
-            List(users) { user in
-                NavigationButton(destination: Text(user.name)) {
-                    UserRow(user: user)
-                }
+        List(users) { user in
+            NavigationButton(destination: Text(user.name)) {
+                UserRow(user: user)
             }
-            .navigationBarItems(trailing: EditButton())
-            .navigationBarTitle(Text("Users"))
         }
+        .navigationBarItems(trailing: EditButton())
+        .navigationBarTitle(Text("Users"))
         
     }
     
