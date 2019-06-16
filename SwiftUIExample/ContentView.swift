@@ -28,6 +28,10 @@ struct ContentView : View {
                 }
                 
                 Section {
+                    AlertsView()
+                }
+                
+                Section {
                     Animations()
                 }
                 
@@ -45,6 +49,9 @@ struct ContentView : View {
         }
         
     }
+    
+    
+    @State var isShown = false
     
 }
 

@@ -40,6 +40,7 @@
 		20D1CEDD22B35DC60044EDFF /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1CEDC22B35DC60044EDFF /* HStackView.swift */; };
 		20D1CEDF22B35EF50044EDFF /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1CEDE22B35EF50044EDFF /* ZStackView.swift */; };
 		20D1CEE222B360660044EDFF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D1CEE122B360660044EDFF /* ListView.swift */; };
+		20D3023E22B5350E005E268F /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D3023D22B5350E005E268F /* AlertsView.swift */; };
 		20DCC47222B34D8C001A516F /* Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC47122B34D8C001A516F /* Layouts.swift */; };
 		20DCC47422B34E16001A516F /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC47322B34E16001A516F /* VStackView.swift */; };
 /* End PBXBuildFile section */
@@ -80,6 +81,7 @@
 		20D1CEDC22B35DC60044EDFF /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		20D1CEDE22B35EF50044EDFF /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
 		20D1CEE122B360660044EDFF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		20D3023D22B5350E005E268F /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
 		20DCC47122B34D8C001A516F /* Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouts.swift; sourceTree = "<group>"; };
 		20DCC47322B34E16001A516F /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +122,7 @@
 				20DCC47122B34D8C001A516F /* Layouts.swift */,
 				20BE321D22B2701400828F68 /* Views.swift */,
 				20BE321F22B2706500828F68 /* Inputs.swift */,
+				20D3023D22B5350E005E268F /* AlertsView.swift */,
 				2096E54222B365040016F3E6 /* Animations.swift */,
 				20BE322122B270E300828F68 /* Gestures.swift */,
 				2096E54B22B369CA0016F3E6 /* Gradients.swift */,
@@ -292,6 +295,7 @@
 				2096E54322B365040016F3E6 /* Animations.swift in Sources */,
 				2096E55222B36B620016F3E6 /* RadialGradientView.swift in Sources */,
 				2096E54C22B369CA0016F3E6 /* Gradients.swift in Sources */,
+				20D3023E22B5350E005E268F /* AlertsView.swift in Sources */,
 				20BE321A22B26B4600828F68 /* SegmentedControlInput.swift in Sources */,
 				2089993422B2442700504BFE /* SceneDelegate.swift in Sources */,
 				2089993622B2442700504BFE /* ContentView.swift in Sources */,
