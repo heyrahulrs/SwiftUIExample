@@ -16,21 +16,34 @@ struct User : Identifiable {
 
 struct ListView : View {
     
-    var users: [User] = [.init(id: 1, name: "Tim Cook", numberOfFriends: 4),
+    @State var users: [User] = [.init(id: 1, name: "Tim Cook", numberOfFriends: 4),
                          .init(id: 2, name: "Craig Federighi", numberOfFriends: 9),
                          .init(id: 3, name: "Jony Ive", numberOfFriends: 1),
                          .init(id: 4, name: "Steve Jobs", numberOfFriends: 11)]
     
     var body: some View {
         
-        List(users) { user in
-            NavigationButton(destination: Text(user.name)) {
-                UserRow(user: user)
+        List {
+            ForEach(users) { user in
+                NavigationButton(destination: Text(user.name)) {
+                    UserRow(user: user)
+                }
             }
+            .onMove(perform: move)
+            .onDelete(perform: delete)
         }
         .navigationBarItems(trailing: EditButton())
         .navigationBarTitle(Text("Users"))
         
+    }
+    
+    func delete(at offsets: IndexSet) {
+        if let first = offsets.first {
+            users.remove(at: first)
+        }
+    }
+    
+    func move(from source: IndexSet, to destination: Int) {
     }
     
 }
