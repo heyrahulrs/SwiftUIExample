@@ -13,31 +13,31 @@ struct Inputs : View {
     var body: some View {
         
         Group {
-            NavigationButton(destination: ToggleInput()) {
+            NavigationLink(destination: ToggleInput()) {
                 Text("Toggle")
             }
             
-            NavigationButton(destination: ButtonInput()) {
+            NavigationLink(destination: ButtonInput()) {
                 Text("Button")
             }
             
-            NavigationButton(destination: TextFieldInput()) {
+            NavigationLink(destination: TextFieldInput()) {
                 Text("TextField")
             }
             
-            NavigationButton(destination: SecureFieldInput()) {
+            NavigationLink(destination: SecureFieldInput()) {
                 Text("SecureField")
             }
             
-            NavigationButton(destination: SliderInput()) {
+            NavigationLink(destination: SliderInput()) {
                 Text("Slider")
             }
             
-            NavigationButton(destination: SegmentedControlInput()) {
+            NavigationLink(destination: SegmentedControlInput()) {
                 Text("Segmented Control")
             }
             
-            NavigationButton(destination: DatePickerInput()) {
+            NavigationLink(destination: DatePickerInput()) {
                 Text("Date Picker")
             }
         }

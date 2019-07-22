@@ -19,15 +19,26 @@ struct AlertsView : View {
                         .default(Text("Aweomse Option"),
                                  onTrigger: {
                                     self.isShown = false
-                        }),
+                                }
+                        ),
                         .default(Text("Cool Option"),
                                  onTrigger: {
                                     self.isShown = false
-                        }),
-                        .cancel({
-                            self.isShown = false
-                        })
-            ])
+                            }
+                        ),
+                        .cancel(
+                            {
+                                self.isShown = false
+                            }
+                        )
+                    ]
+        )
+    }
+    
+    var alert: Alert {
+        Alert(title: Text("Alert"),
+              message: Text("This is an alert."),
+              dismissButton: .default(Text("Awesome!")))
     }
     
     var body: some View {
@@ -36,24 +47,30 @@ struct AlertsView : View {
             
             //Alert
             
-            Button(action: {
-                self.isShown = true
-            }) {
-                Text("Alert")
+            Button(
+                action: {
+                    self.isShown = true
                 }
-                .presentation($isShown) {
-                    Alert(title: Text("Alert"),
-                          message: Text("This is an alert."),
-                          dismissButton: .default(Text("Awesome!")))
+            ) {
+                Text("Alert")
             }
+            .alert(isPresented: $isShown) {
+                self.alert
+            }
+                
             
             //Action Sheet
             
-            Button(action: {
-                self.isShown = true
-            }) {
+            Button(
+                action: {
+                    self.isShown = true
+                }
+            ) {
                 Text("Action Sheet")
-                }.presentation(isShown ? actionSheet : nil)
+            }
+            .actionSheet(isPresented: $isShown) {
+                self.actionSheet
+            }
             
         }
         

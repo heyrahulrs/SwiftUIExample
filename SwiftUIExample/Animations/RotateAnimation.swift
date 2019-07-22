@@ -16,7 +16,7 @@ struct RotateAnimation : View {
         MyAnimationImage()
             .rotationEffect(angle, anchor: .center)
             .tapAction {
-                withAnimation(.basic(duration: 0.4, curve: .easeInOut)) {
+                withAnimation(.easeInOut(duration: 0.4)) {
                     self.angle += Angle(degrees: 30.0)
                 }
             }

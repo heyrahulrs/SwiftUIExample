@@ -18,7 +18,7 @@ struct OffsetAnimation : View {
         MyAnimationImage()
             .offset(x: xOffset, y: yOffset)
             .tapAction {
-                withAnimation(.basic()) {
+                withAnimation {
                     self.xOffset = Length.random(in: -200...200)
                     self.yOffset = Length.random(in: -200...200)
                 }

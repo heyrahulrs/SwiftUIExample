@@ -10,10 +10,10 @@ import SwiftUI
 
 struct SecureFieldInput : View {
     
-    @State var password: String = "" //create State
+    @State var password: String = ""
     
     var body: some View {
-        SecureField($password)
+        SecureField("Enter Passoword", text: $password)
             .textFieldStyle(.roundedBorder)
             .padding([.leading, .trailing], 24.0)
     }

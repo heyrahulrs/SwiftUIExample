@@ -13,15 +13,15 @@ struct Gradients : View {
     var body: some View {
         
         Group {
-            NavigationButton(destination: LinearGradientView()) {
+            NavigationLink(destination: LinearGradientView()) {
                 Text("Linear Gradient")
             }
             
-            NavigationButton(destination: AngularGradientView()) {
+            NavigationLink(destination: AngularGradientView()) {
                 Text("Angular Gradient")
             }
             
-            NavigationButton(destination: RadialGradientView()) {
+            NavigationLink(destination: RadialGradientView()) {
                 Text("Radial Gradient")
             }
         }

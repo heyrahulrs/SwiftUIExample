@@ -14,19 +14,19 @@ struct Layouts : View {
         
         Group {
             
-            NavigationButton(destination: VStackView()) {
+            NavigationLink(destination: VStackView()) {
                 Text("VStack")
             }
             
-            NavigationButton(destination: HStackView()) {
+            NavigationLink(destination: HStackView()) {
                 Text("HStack")
             }
             
-            NavigationButton(destination: ZStackView()) {
+            NavigationLink(destination: ZStackView()) {
                 Text("ZStack")
             }
             
-            NavigationButton(destination: ListView()) {
+            NavigationLink(destination: ListView()) {
                 Text("List")
             }
             

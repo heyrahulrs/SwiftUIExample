@@ -21,10 +21,10 @@ struct DatePickerInput : View {
     var body: some View {
         
         VStack {
-            DatePicker($selectedDate,
-                       minimumDate: nil,
-                       maximumDate: Date(),
-                       displayedComponents: .date)
+            DatePicker("Select Date",
+                selection: $selectedDate,
+                in: ...Date(),
+                displayedComponents: [.date])
             
             Text("Selected date is \(selectedDate, formatter: dateFormatter)")
         }

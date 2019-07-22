@@ -24,7 +24,7 @@ struct ToggleInput : View {
                 Text("Toggle is currently switched")
                 Text(isToggleOn ? "on" : "off")
                     .fontWeight(.bold)
-                    .color(Color.red)
+                    .foregroundColor(Color.red)
             }
         }
         

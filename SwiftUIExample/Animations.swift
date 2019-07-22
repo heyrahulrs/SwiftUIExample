@@ -13,15 +13,15 @@ struct Animations : View {
     var body: some View {
         
         Group {
-            NavigationButton(destination: ScaleAnimation()) {
+            NavigationLink(destination: ScaleAnimation()) {
                 Text("Scale")
             }
             
-            NavigationButton(destination: RotateAnimation()) {
+            NavigationLink(destination: RotateAnimation()) {
                 Text("Rotate")
             }
             
-            NavigationButton(destination: OffsetAnimation()) {
+            NavigationLink(destination: OffsetAnimation()) {
                 Text("Offset")
             }
         }

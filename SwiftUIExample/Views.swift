@@ -13,15 +13,15 @@ struct Views : View {
     var body: some View {
         
         Group {
-            NavigationButton(destination: TextView()) {
+            NavigationLink(destination: TextView()) {
                 Text("Text")
             }
             
-            NavigationButton(destination: ImageView()) {
+            NavigationLink(destination: ImageView()) {
                 Text("Image")
             }
             
-            NavigationButton(destination: ShapesView()) {
+            NavigationLink(destination: ShapesView()) {
                 Text("Shape")
             }
         }

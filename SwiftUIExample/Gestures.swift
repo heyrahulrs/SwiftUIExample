@@ -13,15 +13,15 @@ struct Gestures : View {
     var body: some View {
         
         Group {
-            NavigationButton(destination: TapGestureView()) {
+            NavigationLink(destination: TapGestureView()) {
                 Text("Tap Gesture")
             }
             
-            NavigationButton(destination: DragGestureView()) {
+            NavigationLink(destination: DragGestureView()) {
                 Text("Drag Gesture")
             }
             
-            NavigationButton(destination: LongPressGestureView()) {
+            NavigationLink(destination: LongPressGestureView()) {
                 Text("Long Press Gesture")
             }
             

@@ -40,7 +40,7 @@ struct TextView : View {
                 .foregroundColor(.secondary)
             
             Text("System Red Colored Text")
-                .color(Color.red)
+                .foregroundColor(Color.red)
             
             Text("Rounded Text of size 24.0")
                 .font(.system(size: 24.0, design: .rounded))

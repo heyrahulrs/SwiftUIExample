@@ -14,7 +14,7 @@ struct TextFieldInput : View {
     
     var body: some View {
         VStack(spacing: 18.0) {
-            TextField($name, placeholder: Text("Enter your name"))
+            TextField("Enter your name", text: $name)
                 .textFieldStyle(.roundedBorder)
                 .padding([.trailing, .leading], 28.0)
                 HStack {
