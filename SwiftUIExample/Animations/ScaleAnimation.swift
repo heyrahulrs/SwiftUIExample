@@ -10,13 +10,13 @@ import SwiftUI
 
 struct ScaleAnimation : View {
     
-    @State var scale: Length = 0.6
+    @State var scale: CGFloat = 0.6
     
     var body: some View {
         
         MyAnimationImage()
             .scaleEffect(scale)
-            .tapAction {
+            .onTapGesture {
                 withAnimation(.spring()) {
                     self.scale += 0.1
                     if self.scale > 1.4 {

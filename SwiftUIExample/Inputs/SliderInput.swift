@@ -15,7 +15,7 @@ struct SliderInput : View {
     var body: some View {
         
         VStack(spacing: 20.0) {
-            Slider(value: $value, from: 0, through: 100, by: 1)
+            Slider(value: $value, in: 1...10)
                 .padding(.leading, 18.0)
                 .padding(.trailing, 18.0)
             Text("Slider value is \(Int(value)).")

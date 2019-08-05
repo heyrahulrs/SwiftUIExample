@@ -14,7 +14,7 @@ struct SecureFieldInput : View {
     
     var body: some View {
         SecureField("Enter Passoword", text: $password)
-            .textFieldStyle(.roundedBorder)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
             .padding([.leading, .trailing], 24.0)
     }
 }

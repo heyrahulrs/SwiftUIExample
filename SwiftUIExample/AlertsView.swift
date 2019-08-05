@@ -17,12 +17,12 @@ struct AlertsView : View {
                     message: nil,
                     buttons: [
                         .default(Text("Aweomse Option"),
-                                 onTrigger: {
+                                 action: {
                                     self.isShown = false
                                 }
                         ),
                         .default(Text("Cool Option"),
-                                 onTrigger: {
+                                 action: {
                                     self.isShown = false
                             }
                         ),

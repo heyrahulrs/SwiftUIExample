@@ -39,9 +39,8 @@ struct VStackView : View {
             Text("Move Slider to change spacing:")
                 .frame(width: 280.0, height: 64.0)
             
-            Slider(value: $value, from: 0, through: 28, by: 1.0)
-            .padding(28.0)
-
+            Slider(value: $value, in: 1...10)
+                .padding(28.0)
         }
     }
 }

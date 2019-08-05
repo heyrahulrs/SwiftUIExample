@@ -10,17 +10,17 @@ import SwiftUI
 
 struct OffsetAnimation : View {
     
-    @State var xOffset: Length = 0.0
-    @State var yOffset: Length = 0.0
+    @State var xOffset: CGFloat = 0.0
+    @State var yOffset: CGFloat = 0.0
 
     var body: some View {
         
         MyAnimationImage()
             .offset(x: xOffset, y: yOffset)
-            .tapAction {
+            .onTapGesture {
                 withAnimation {
-                    self.xOffset = Length.random(in: -200...200)
-                    self.yOffset = Length.random(in: -200...200)
+                    self.xOffset = CGFloat.random(in: -200...200)
+                    self.yOffset = CGFloat.random(in: -200...200)
                 }
             }
         

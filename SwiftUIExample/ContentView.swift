@@ -44,14 +44,11 @@ struct ContentView : View {
                 }
                 
             }
-            .listStyle(.grouped)
+            .listStyle(GroupedListStyle())
             .navigationBarTitle(Text("SwiftUI"))
         }
         
     }
-    
-    
-    @State var isShown = false
     
 }
 

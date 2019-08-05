@@ -17,11 +17,12 @@ struct SegmentedControlInput : View {
     var body: some View {
         
         VStack(spacing: 20.0) {
-            SegmentedControl(selection: $selectedIndex) {
+            Picker(selection: $selectedIndex, label: Text("Selection")) {
                 ForEach(0..<3) { index in
                     Text(self.fruits[index]).tag(index)
                 }
             }
+            .pickerStyle(SegmentedPickerStyle())
             .padding(.leading, 24.0)
             .padding(.trailing, 24.0)
             
